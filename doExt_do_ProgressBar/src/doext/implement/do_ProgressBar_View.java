@@ -91,7 +91,7 @@ public class do_ProgressBar_View extends FrameLayout implements DoIUIModuleView,
 		DoUIModuleHelper.handleBasicViewProperChanged(this.model, _changedValues);
 		if (_changedValues.containsKey("progress")) {
 			int _progress = (int) Math.round(DoTextHelper.strToDouble(_changedValues.get("progress"), 0));
-			progressBar.setProgress(_progress * 100);
+			progressBar.setProgress(_progress);
 		}
 	}
 
