@@ -7,3 +7,4 @@ proguard/
 *.classpath
 /doExt_do_ProgressBar/do_build.xml
 /doExt_do_ProgressBar/libs/docore.jar
+/doExt_do_ProgressBar/do_ProgressBar.zip
